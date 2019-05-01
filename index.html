@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>青木洋品店</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bulma Version 0.7.2-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="has-background-white-ter">
+<div class="container">
+    <div class="navbar-brand">
+            <span class="navbar-burger burger is-active" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+    </div>
+    <div id="navbarMenu" class="navbar-menu is-active">
+        <div class="navbar-end">
+            <div class="tabs is-right">
+                <ul>
+                    <li class="is-active"><a>Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#access">Access</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="hero is-medium is-bold">
+
+    <!-- END NAV -->
+    <div class="hero-body">
+        <div class="container has-text-right">
+            <h1 class="title is-1 red-font">AOKI </h1>
+            <p class="subtitle is-3 is-spaced">洋服 和雑貨</p>
+            <!--<p class="subtitle is-5 is-spaced">御土産,Recuerdo,Souvenir</p>-->
+        </div>
+    </div>
+</section>
+    </div>
+<section class="has-background-white-bis" id="about">
+    <hr/>
+    <div class="column is-10 is-offset-1">
+        <div class="media">
+            <div class="media-content has-text-centered is-7">
+                <h2 class="title article-title　title is-1 red-font">About</h2>
+            </div>
+        </div>
+        <div class="columns is-vcentered">
+            <div class="column is-5">
+                <figure class="image is-4by3">
+                    <img src="about1.jpg" alt="Description">
+                </figure>
+            </div>
+            <div class="column is-7">
+                <h3 class="title is-2">
+                    洋服と和雑貨のお店です
+                </h3>
+                <h4 class="subtitle is-4">
+                    おかげさまで創業６４年を迎えました
+                </h4>
+                <p>
+                    当店では、お洋服やお土産を品数豊富に取り揃えております。
+                </p>
+                <p>
+                    真鶴町に立ち寄った方、真鶴町にお住まいの方、ぜひ一度ご来店ください。
+                </p>
+                <p>
+                    スタッフ一同、誠心誠意サービスさせていただきます。
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="has-background-white-lighter" id="access">
+    <div class="column is-10 is-offset-1">
+        <div class="media">
+            <div class="media-content has-text-centered is-7">
+                <h2 class="title article-title　title is-1 red-font">Access</h2>
+            </div>
+        </div>
+        <div class="columns is-vcentered">
+            <div class="column is-5">
+                <figure class="image is-4by3">
+                    <img src="shop.jpg" alt="Description">
+                </figure>
+            </div>
+            <hr/>
+            <div class="column is-6">
+                <h3 class="title is-2">
+                    JR真鶴駅から徒歩1分
+                </h3>
+                <h4 class="subtitle is-4">
+                    お車でお越しの方は向かいの寿司屋横の駐車場をご利用ください
+                </h4>
+                <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d342.8771184832998!2d139.13306170581168!3d35.156223093101225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdb3484b112a69191!2z6Z2S5pyo5rSL5ZOB5bqX!5e0!3m2!1sja!2sjp!4v1556713226047!5m2!1sja!2sjp" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <hr/>
+            </div>
+        </div>
+        <p class="has-text-centered">
+            <a href="https://goo.gl/maps/ovfUCoMY888BedWc6" class="button is-medium is-outlined is-fullwidth is-link is-rounded fa fa-map">　Google Map でみる</a>
+        </p>
+    </div>
+</section>
+</body>
+<script async>
+    (function() {
+        let burger = document.querySelector('.burger');
+        let menu = document.querySelector('#'+burger.dataset.target);
+        burger.addEventListener('click', function() {
+            burger.classList.toggle('is-active');
+            menu.classList.toggle('is-active');
+        });
+    })();
+</script>
+</html>

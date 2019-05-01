@@ -1,0 +1,27 @@
+
+.hero-body{
+    background-image: url("neko-sm.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 766px) {
+    .hero-body{
+        background-image: url("neko.png");
+        background-position: left;
+        background-repeat: no-repeat;
+        height: 512px;
+    }
+}
+.red {
+    background-color:#E9546B !important;
+}
+
+.red-font {
+    color: #E9546B !important;
+    margin: 2rem;
+}
+
+.columns {
+    margin-bottom: 3rem;
+}
