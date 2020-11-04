@@ -13,57 +13,44 @@
     <meta name="google-site-verification" content="2EAFbTrH_T9t470_7qetCCXZe11UnFZr5WZrS0dWu5w" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139448959-1"></script>
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "LocalBusiness",
-      "name": "青木洋品店｜真鶴駅前の洋服と和雑貨・お土産のお店",
-      "description": "青木洋品店は洋服と和雑貨・お土産のお店です
-                    おかげさまで創業６４年を迎えました
-                    当店では、お洋服やお土産を品数豊富に取り揃えております。
-                    真鶴町に立ち寄った方、真鶴町にお住まいの方、ぜひ一度ご来店ください。
-                    スタッフ一同、誠心誠意サービスさせていただきます。",
-      "telephone": "0465-68-2155", //電話番号
-      "url": "https://aoki-so-close.github.io/manazuru-yofuku/index.html",
-      "priceRange":"4000",
-    "image": [
-       "https://aoki-so-close.github.io/manazuru-yofuku/neko.jpg",
-       "https://aoki-so-close.github.io/manazuru-yofuku/front.jpg"
-     ],
-      "address": {
-       "@type": "PostalAddress",
-        "addressCountry": "JP",
-        "postalCode": "259-0201",
-        "addressRegion": "神奈川県",
-        "addressLocality": "足柄下郡",
-        "streetAddress": "真鶴町真鶴４０３−１"
-      },
-      "openingHoursSpecification": [ //営業日と営業時間
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-           "Monday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-           "Saturday",
-      		"Sunday"
-      ],
-      "opens": "9:00", //開店時間
-      "closes": "17:00" //閉店時間
-      },
-      { //定休日
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-       "Tuesday"
-      ],
-      "opens": "00:00", //定休日のため開店時間は00:00
-      "closes": "00:00" //定休日のため閉店時間も00:00
-      }
-      ]
-    }
+<script type="application/ld+json">
+{
+ "@context":"http://schema.org",
+ "@type":"ClothingStore",
+ "name":"青木洋品店",
+ "address":{
+  "@type":"PostalAddress",
+  "streetAddress":"真鶴403-1",
+  "addressLocality":"足柄下郡真鶴町",
+  "addressRegion":"神奈川県",
+  "postalCode":"259-0201",
+  "addressCountry":"JP"
+ },
+ "geo":{
+  "@type":"GeoCoordinates",
+  "latitude":"35.155753",
+  "longitude":"139.132742"
+ },
+ "openingHoursSpecification":[
+  {
+   "@type":"OpeningHoursSpecification",
+   "dayOfWeek":[
+    "Monday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "opens":"0900",
+   "closes":"1700"
+  }
+ ],
+ "image":"https://aoki-so-close.github.io/manazuru-yofuku/shop.webp",
+ "url":"https://aoki-so-close.github.io/"
+}
 </script>
-    <script>
+ <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
